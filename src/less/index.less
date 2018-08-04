@@ -1,0 +1,180 @@
+@colorWhite:#fff;
+@colorBlue:#00a8ff;
+@bgurl:"../../../static/images";
+
+//顶部导航
+.navbar{
+    border-radius: 0;
+    margin-bottom:0;
+}
+.navbar-inverse{
+         
+    .navbar-brand{
+        font-size: 28px;
+        color: @colorWhite;
+        
+        span{
+            font-size: 20px;
+        }
+    }
+    .navbar-nav{
+        &>li{
+            &>a{
+                color: @colorWhite;
+                &:hover{
+                    color: @colorBlue;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }   
+}
+
+//主导航条
+.navbar-default{
+    margin-bottom: 6px;
+    
+    .navbar-nav{
+         
+         &>li{
+             
+            &>a{
+                min-width:80px;
+                line-height: 40px;
+                font-size: 16px;
+                text-align: center;
+                
+                &:hover{
+                    background: #F0F0F0;
+                    color: @colorBlue;
+                }
+            } 
+         }
+     }
+}
+
+//三大特色
+#feature{
+    margin-top: 20px;
+    .row{
+        div{
+            background: url("@{bgurl}/feature01.png") no-repeat left center;
+            min-height:70px;
+            padding-left:80px;
+            
+            h4{
+                font-weight: 700;
+            }
+            p{
+                color: #999;
+            }
+        }
+    }
+}
+
+//投资信息列表
+#invest,#article{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+//panel部分
+.panel{
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.panel-default{
+    border: none;
+    
+    &>.panel-heading{
+        background-color: transparent;
+        padding: 0px;
+        
+        display: flex;
+        justify-content: space-between;
+        
+        h1{
+            font-size: 24px;
+            margin-bottom: 0px;
+            padding-bottom: 10px;
+            color: #2e8ece;
+            font-weight: bold;
+            border-bottom: 3px solid @colorBlue;
+        }
+        
+        p{
+            margin: 0px;
+            padding: 0px;
+            line-height: 60px;
+        }
+    }
+    
+    table{
+        font-size: 16px;
+        th{
+            color: #999;
+        }
+        td:nth-of-type(3),td:nth-of-type(4){
+            color: #31708f;
+        }
+    }
+    
+    .panel-body{
+        
+        ul{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            
+            li{
+                line-height: 26px;
+                border-bottom: dotted 1px #ccc;
+                
+                span{
+                    float: right;
+                    color: #999;
+                }
+            }
+        }
+    }
+}
+
+//页脚
+.el-footer{
+    margin-right: 0;
+    margin-left: 0;
+    background-color:#f8f8f8;
+    margin:20px 0 20px 0;
+    padding-top: 30px;
+    
+    p{
+        font-size: 14px;
+    }
+    
+    .sina,.weixin{
+        p{
+            padding-bottom: 15px; 
+            padding-left: 10px;
+        }
+        
+        a{
+            img{
+                width: 160px;
+            }
+        }
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
