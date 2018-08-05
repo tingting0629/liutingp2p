@@ -16,6 +16,9 @@
   color: #00a8ff;
   text-decoration: underline;
 }
+.tooltip img {
+  width: 120px;
+}
 .navbar-default {
   margin-bottom: 6px;
 }
@@ -47,6 +50,11 @@
 #article {
   padding-right: 0px;
   padding-left: 0px;
+}
+@media all and (max-width: 620px) {
+  .hide620 {
+    display: none;
+  }
 }
 .panel {
   -webkit-box-shadow: none;
@@ -112,7 +120,7 @@
   padding-bottom: 15px;
   padding-left: 10px;
 }
-.el-footer .sina a img,
-.el-footer .weixin a img {
-  width: 160px;
+.el-footer .sina img,
+.el-footer .weixin img {
+  max-width: 160px;
 }
