@@ -1,83 +1,54 @@
 <!--页头-->
-<nav class="navbar navbar-inverse">
-	<div class="container">
-		<!--左侧电话-->
-		<div class="navbar-header">
-			<a class="navbar-brand" href="#">
-				<span class="glyphicon glyphicon-phone-alt"></span>
-				<i>028-86261949</i>
-			</a>
-		</div>
-
-		<div class="collapse navbar-collapse">
-
-			<!--右侧辅助导航条-->
-			<ul class="nav navbar-nav navbar-right">
-				<li>
-					<a href="index.php"><span class="fa fa-home"></span> 首页</a>
-				</li>
-				<li>
-					<a href="#"><span class="fa fa-user"></span> 小强</a>
-				</li>
-				<li>
-					<a href="#"><span class="fa fa-money-bill-alt"></span> 赶快充值</a>
-				</li>
-				<li>
-					<a href="#"><span class="fa fa-sign-out-alt"></span> 注销</a>
-				</li>
-				<li>
-					<a href="#"><span class="fa fa-question-circle"></span> 帮助</a>
-				</li>
-				<li id="contanctus" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='static/images/contract.png'/>">     
-					<a href="#"><span class="fab fa-weixin"></span> 联系客服</a>
-				</li>
-
-			</ul>
-		</div>
-		<!-- /.navbar-collapse -->
+<header class="navbar el-topBar navbar-inverse" role="navigation">
+    <div class="container">
+    	
+	        <div class="navbar-header col-lg-6">
+	            <!--菜单隐藏式显示的按钮-->
+	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topMenu" aria-expanded="false" aria-controls="navbar">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	            </button>
+	            <!--菜单标题-->
+	            <a class="navbar-brand" href="#">
+	                <span class="glyphicon glyphicon-phone-alt"></span>
+	                <i>028-86261949</i>
+	                <span class="time"><!--（服务时间: 9:00-18:00）--></span>
+	            </a>
+	        </div>
+	        <div id="topMenu" class="navbar-collapse collapse">
+	            <ul class="nav navbar-nav navbar-right">
+	                <li><a href="index.php"><span class="fa fa-home"></span> 首页</a></li>
+	                <li>
+	                    <a class="el-current-user" href="personal.html"><span class="fa fa-user"></span> 小强</a>
+	                </li>
+	                <li><a href="recharge.html"><span class="fa fa-money-bill-alt"></span> 赶快充值</a></li>
+	                <li><a href="indexWithoutLogin.html"><span class="fa fa-sign-out-alt"></span> 注销</a></li>
+	                <li><a href="#"><span class="fa fa-question-circle"></span> 帮助</a></li>
+	                <li id="contanctus" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='static/images/contract.png'/>">     
+						<a href="#"><span class="fab fa-weixin"></span> 联系客服</a>
+					</li>
+	            </ul>
+	        </div>
+    	
 	</div>
-	<!-- /.container-fluid -->
-</nav>
+</header>
 
-<!--主导航-->
-<nav class="navbar navbar-default">
-	<div class="container nav">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_Menu" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-			<a class="navbar-brand" href="#"><img src="static/images/logo.png" /></a>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="main_Menu">
-			<ul class="nav navbar-nav">
-				<li class="active">
-					<a href="#">首页</a>
-				</li>
-				<li>
-					<a href="#">我要投资</a>
-				</li>
-				<li>
-					<a href="#">我要借款</a>
-				</li>
-				<li>
-					<a href="#">个人中心</a>
-				</li>
-				<li>
-					<a href="#">新手指引</a>
-				</li>
-				<li>
-					<a href="#">关于我们</a>
-				</li>
-			</ul>
-
-		</div>
-		<!-- /.navbar-collapse -->
-	</div>
-	<!-- /.container-fluid -->
-</nav>
+<div class="navbar navbar-default el-navbar" style="margin-bottom: 8px;">
+    <div class="container">
+        <div class="navbar-header" style="margin-top: 16px;">
+            <a href="index.html">
+                <img alt="Brand" src="static/images/logo.png">
+            </a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">首页</a></li>
+            <li><a href="invest.html">我要投资</a></li>
+            <li><a href="borrow.html">我要借款</a></li>
+            <li><a href="personal.html">个人中心</a></li>
+            <li><a href="#">新手指引</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+    </div>
+</div>
