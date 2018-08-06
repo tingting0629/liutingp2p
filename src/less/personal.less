@@ -1,8 +1,9 @@
 //引入页头
 @import url("header.less");
 
+//左边栏
 #person{
-    .panel-default{
+    .projectPage{
         cursor: pointer;
         
         .panel-heading{
@@ -23,6 +24,58 @@
     
 }
 
+//中间内容部分
+#content{
+    .el-account-info{
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 16px;
+        
+        .el-head-img{
+            border: 1px solid #ddd;
+            padding: 10px;
+            
+            img{
+                width: 72px;
+                height: 72px;
+            }
+        }
+        
+        .el-head{
+            margin-left: 15px;
+            margin-top: 5px;
+            
+            p{
+                margin-bottom: 10px;
+            }
+        }
+        
+        .el-accoun-auth{
+            padding: 40px 0px 0px 10px;
+            &>div.el-accoun-auth-left{
+                float: left;
+            }
+            
+            &>div.el-accoun-auth-right{
+                float: left;
+                margin-left: 10px;
+                
+                &>h5{
+                    font-weight: bold;
+                    padding: 0px;
+                    margin: 0px 0px 10px 0px;
+                }
+                &>p{
+                    //margin-bottom: 10px;
+                }
+            }
+            
+            p.info{
+                margin-top: 8px;
+                font-size: 13px;
+            }
+        }
+    }
+}
 
 //引入页脚
 @import url("footer.less");

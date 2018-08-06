@@ -1,0 +1,47 @@
+//实名认证页面
+.panel{
+    form{
+        width: 60%;
+        margin: 0 auto;
+        
+        p.protect{
+            color: #a94442;
+            text-align: center;
+        }
+        
+       
+        input,select{
+            width: 70%;
+        }
+        input.cardAddress{
+            width: 130%;
+        }
+        
+        .idCardItem{
+            width: 160px;
+            height: 150px;
+            float: left;
+            margin-right: 10px;
+            border: 1px solid #e3e3e3;
+            text-align: center;
+            padding: 5px;
+        }
+        #viewExample{
+            position: relative;
+            left: 50px;
+            top: 60px;
+        }
+    }
+}
+
+@media all and (max-width: 620px){
+    .panel{
+      form{
+          width: 100%;
+          
+          button{
+              width: 100%;
+          }
+      }
+    }
+}
