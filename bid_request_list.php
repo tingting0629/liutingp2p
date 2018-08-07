@@ -36,7 +36,7 @@
 					<div class="panel panel-default projectPage">
 					  <div class="panel-heading">投资项目</div>
 					  <div class="panel-heading">借款项目</div>
-					  <div class="panel-body" style="background: #337ab7;"> <a href="bid_request_list.php" style="color: white;">借款项目</a></div>
+					  <div class="panel-body"> <a href="bid_request_list.php">借款项目</a></div>
 					  <div class="panel-body"> <a href="#">还款明细</a></div>
 					  
 					  <div class="panel-heading">我的账户</div>

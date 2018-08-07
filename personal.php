@@ -40,7 +40,7 @@
 					  <div class="panel-body"> <a href="#">还款明细</a></div>
 					  
 					  <div class="panel-heading">我的账户</div>
-					  <div class="panel-body" style="background: #337ab7;"> <a href="personal.php" style="color: white;">账户信息</a></div>
+					  <div class="panel-body active"> <a href="personal.php">账户信息</a></div>
 					  <div class="panel-body"> <a href="realAuth.php">实名认证</a></div>
 					  <div class="panel-body"> <a href="#">银行卡管理</a></div>
 					  <div class="panel-body"> <a href="#">登录记录</a></div>

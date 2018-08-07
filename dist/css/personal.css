@@ -49,6 +49,12 @@
   color: #000033;
   text-decoration: underline;
 }
+#person .projectPage .panel-body.active {
+  background: #337ab7;
+}
+#person .projectPage .panel-body.active > a {
+  color: white;
+}
 #content .el-account-info {
   border-bottom: 1px solid #ddd;
   padding-bottom: 16px;
