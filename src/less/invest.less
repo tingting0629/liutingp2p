@@ -1,0 +1,44 @@
+//引入页头
+@import url("header.less");
+//内容部分
+#investment{
+      padding:0px;
+      min-height:100px;
+    h4{
+        font-weight: 200;
+    }       
+    div{   
+        display: flex;    
+       p{
+          padding-top:14px;
+          padding-right:30px;
+          color: ;
+       }
+       .navbar-form{
+             border:1px ;
+           .btn-default{
+              width:90px;
+            &:hover{
+                color: #333;
+                background-color: #e6e6e6;
+                border-color: #adadad;
+            }
+           }
+       }
+       
+    }  
+}
+//投资信息列表
+#invest,#article{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+//屏幕宽度在620以下时就隐藏超宽的列
+@media all and (max-width: 620px){
+    .hide620{
+        display: none;
+    }
+}
+
+//引入页脚
+@import url("footer.less");
