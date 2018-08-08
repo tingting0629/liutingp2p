@@ -1,0 +1,89 @@
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-brand {
+  font-size: 28px;
+  color: #fff;
+}
+.navbar-inverse .navbar-brand span {
+  font-size: 20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #00a8ff;
+  text-decoration: underline;
+}
+.tooltip img {
+  width: 120px;
+}
+.navbar-default {
+  margin-bottom: 8px;
+}
+.navbar-default .navbar-nav > li > a {
+  min-width: 80px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  background: #F0F0F0;
+  color: #00a8ff;
+}
+#investment {
+  padding: 0px;
+  min-height: 100px;
+}
+#investment h4 {
+  font-weight: 200;
+}
+#investment div {
+  display: flex;
+}
+#investment div p {
+  padding-top: 14px;
+  padding-right: 30px;
+  color: ;
+}
+#investment div .navbar-form {
+  border: 1px ;
+}
+#investment div .navbar-form .btn-default {
+  width: 90px;
+}
+#investment div .navbar-form .btn-default:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+#invest,
+#article {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+@media all and (max-width: 620px) {
+  .hide620 {
+    display: none;
+  }
+}
+.el-footer {
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #f8f8f8;
+  margin: 20px 0 20px 0;
+  padding-top: 30px;
+}
+.el-footer p {
+  font-size: 14px;
+}
+.el-footer .sina p,
+.el-footer .weixin p {
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+.el-footer .sina img,
+.el-footer .weixin img {
+  max-width: 160px;
+}
